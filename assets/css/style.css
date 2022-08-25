@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+li, a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    background-color: rgb(53,76,161);
+    border-bottom: solid;
+    border-color: rgb(204,0,0);
+    border-width: 8px;
+}
+
+ .logo {
+    cursor: pointer;
+    order: 0; 
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+}    
+
+.navlinks {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.navlinks li {
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: rgb(204,0,0);
+    padding: 8px 11px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: whitesmoke;
+    border-width: 2px;
+}
+
+
+.navlinks li a {    
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    
+}
+
+.navlinks li a a:hover {
+    color: rgb(0, 255, 34);
+}
+
+main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.profile { 
+}
+
+.profile h1 {
+    display: block;
+    color: whitesmoke;
+    background-color: rgb(53,76,161);
+    padding: 15px;
+    margin-top:10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-style: solid;
+    border-width: 4px;
+    border-color:  rgb(204,0,0);
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.profile img {
+    display: block;
+}
+
+.about-me {
+    margin: 20px;
+    padding: 8px;
+    background-color:  rgb(53,76,161);
+    color: whitesmoke;
+    border-style: solid;
+    border-width: 4px;
+    border-color:  rgb(204,0,0);
+}
+
+.about-me h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 12px;
+        margin-bottom: 5px;
+}
+
+.pages {
+    margin: 20px;
+    padding: 8px;
+    background-color:  rgb(53,76,161);
+    color: whitesmoke;
+    border-style: solid;
+    border-width: 4px;
+    border-color:  rgb(204,0,0);
+}
+
+.pages h2 {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.Horiseon {
+    background-color: aqua;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(53,76,161);
+
+}
+
+.footer h2 {
+    font-size: 20px;
+    display: flex top;
+}
+
+
